@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.mainContainer{
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("img/background.jpeg") no-repeat center center;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+.inputField{
+    width: 30%;
+    height: 50px;
+    margin: 50px;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid grey;
+    font-size: 110%;
+    font-family: Georgia;
+    color: black;
+}
+.btn{
+    position: absolute;
+    top: 60px;
+    
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.cities{
+    width: 100%;
+    padding: 20px 100px 50px 100px;
+    height: fit-content;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    border-radius: 30px 0px 30px 0px;
+    background-color: #f4fbff;
+    padding: 20px;
+    font-family: Georgia;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    box-shadow: 15px 15px 9px -3px rgba(0, 0, 0, 0.2);
+}
+.valIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon{
+    width: 100px;
+}
+.val{
+    width: 25%;
+    height: fit-content;
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.values{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name{
+    font-weight: bold;
+    font-size: 23px;
+}
+.tempContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close{
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: monospace;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #1a51ff;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+    box-shadow: 15px 15px 9px -3px rgba(0, 0, 0, 0.2);
+}
